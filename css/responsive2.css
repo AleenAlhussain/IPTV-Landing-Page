@@ -11,10 +11,9 @@
 .header{
     padding: 12px 0;
 }
-.header-main {
+.header-main{
     height: 25px !important;
 }
-.subscribe
     .header-btn{
         height: 34px;
         width: 40px;
@@ -48,7 +47,7 @@
         display: block;
         height: 2px;
         width: 24px;
-        background-color: var(--BLACK);
+        background-color: var(--balck-90);
         position: relative;
         margin: auto;
     }
@@ -159,7 +158,12 @@
     .section-title .sub-title{
         font-size: 22px;
     }
-    
+    .timeline .timeline-inverted .subscribe{
+        font-size: 14px !important;
+    }
+    .header-main{
+        height: 25px !important;
+    }
    
 }
 @media(max-width:575px){
@@ -180,5 +184,7 @@
     .header-logo a{
          font-size: 22px;
     }
-    
+    .subscribe{
+        font-size: 14px !important;
+    }
 }
